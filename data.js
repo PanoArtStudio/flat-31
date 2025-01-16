@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-imgl1140--",
-      "name": "IMGL1140 панорама копия",
+      "id": "0-hall",
+      "name": "hall",
       "levels": [
         {
           "tileSize": 256,
@@ -28,35 +28,35 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.06484653571210153,
+        "pitch": 0.0037480332959276552,
+        "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 1.5128303334989273,
-          "pitch": 0.46017649000394556,
+          "yaw": 0.029801861150696496,
+          "pitch": 0.49414189371868034,
           "rotation": 0,
-          "target": "2-imgl1042--"
+          "target": "1-bedroom"
         },
         {
-          "yaw": -1.4873421620937108,
-          "pitch": 0.4691623426547942,
+          "yaw": -1.4907265463832946,
+          "pitch": 0.41490650283555297,
           "rotation": 0,
-          "target": "4-imgl1174--"
+          "target": "2-bathroom"
         },
         {
-          "yaw": 0.0008480280014833141,
-          "pitch": 0.518314833755344,
+          "yaw": 1.5641658348387733,
+          "pitch": 0.5286079657819016,
           "rotation": 0,
-          "target": "5-imgl1211--"
+          "target": "4-guestroom_kitchen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-imgl1002--",
-      "name": "IMGL1002 панорама копия",
+      "id": "1-bedroom",
+      "name": "bedroom",
       "levels": [
         {
           "tileSize": 256,
@@ -82,23 +82,29 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": -3.0142787830326174,
-        "pitch": -0.04482854015519777,
+        "yaw": -0.09574509020706756,
+        "pitch": 0.21975511879266918,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 2.01184692968058,
-          "pitch": 0.4775763680022038,
+          "yaw": 3.0502376251238825,
+          "pitch": 0.7504409123697329,
           "rotation": 0,
-          "target": "2-imgl1042--"
+          "target": "0-hall"
+        },
+        {
+          "yaw": 2.9521345948700892,
+          "pitch": 0.3221006304697873,
+          "rotation": 0,
+          "target": "4-guestroom_kitchen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-imgl1042--",
-      "name": "IMGL1042 панорама копия",
+      "id": "2-bathroom",
+      "name": "bathroom",
       "levels": [
         {
           "tileSize": 256,
@@ -124,35 +130,23 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": 0.9563272387278641,
-        "pitch": 0.09494551094925541,
+        "yaw": 0.8896990469487669,
+        "pitch": 0.1554137271232463,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 1.882813902787725,
-          "pitch": 0.3908655870864255,
+          "yaw": -0.8109479917517923,
+          "pitch": 0.31486629975212566,
           "rotation": 0,
-          "target": "1-imgl1002--"
-        },
-        {
-          "yaw": 0.7449034937349737,
-          "pitch": 0.46014129493812383,
-          "rotation": 0,
-          "target": "3-imgl1087-"
-        },
-        {
-          "yaw": -1.3861570823917777,
-          "pitch": 0.5301239306616736,
-          "rotation": 0,
-          "target": "0-imgl1140--"
+          "target": "0-hall"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-imgl1087-",
-      "name": "IMGL1087 панорама",
+      "id": "3-guestroom-_-kitchen-2",
+      "name": "guestroom _ kitchen 2",
       "levels": [
         {
           "tileSize": 256,
@@ -178,35 +172,29 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": -1.5250838728262153,
-        "pitch": 0.13506843533767032,
+        "yaw": -1.6703802266885077,
+        "pitch": 0.07797897913973806,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": -1.3213346388887555,
-          "pitch": 0.49756699081037503,
+          "yaw": -2.3130582694911777,
+          "pitch": 0.1650278890455219,
           "rotation": 0,
-          "target": "2-imgl1042--"
+          "target": "5-bedroom-2"
         },
         {
-          "yaw": -2.3171557500810085,
-          "pitch": 0.282025527737332,
+          "yaw": -1.3104475672238607,
+          "pitch": 0.43841891008839795,
           "rotation": 0,
-          "target": "1-imgl1002--"
-        },
-        {
-          "yaw": -0.9692850008066713,
-          "pitch": -0.0559246435949472,
-          "rotation": 0,
-          "target": "0-imgl1140--"
+          "target": "4-guestroom_kitchen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-imgl1174--",
-      "name": "IMGL1174 панорама копия",
+      "id": "4-guestroom_kitchen",
+      "name": "guestroom_kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -232,23 +220,35 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": -0.3462970800270391,
-        "pitch": 0.3692287250739277,
+        "yaw": 1.4675759552902843,
+        "pitch": 0.2463968361098967,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": -0.8612543946366671,
-          "pitch": 0.6266632304177691,
+          "yaw": 0.6417759074323435,
+          "pitch": 0.5055274480715077,
           "rotation": 0,
-          "target": "0-imgl1140--"
+          "target": "3-guestroom-_-kitchen-2"
+        },
+        {
+          "yaw": 1.8850021129310397,
+          "pitch": 0.4843578587647208,
+          "rotation": 0,
+          "target": "5-bedroom-2"
+        },
+        {
+          "yaw": -1.372282008726497,
+          "pitch": 0.5681681175337889,
+          "rotation": 0,
+          "target": "0-hall"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-imgl1211--",
-      "name": "IMGL1211 панорама копия",
+      "id": "5-bedroom-2",
+      "name": "bedroom 2",
       "levels": [
         {
           "tileSize": 256,
@@ -274,16 +274,16 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": -0.04815972277096847,
-        "pitch": 0.21158925733780976,
+        "yaw": 0.010780127034360376,
+        "pitch": 0.3190601869352463,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 2.8946712007795243,
-          "pitch": 0.5085094035622362,
+          "yaw": 2.0185274421140322,
+          "pitch": 0.5722779284603412,
           "rotation": 0,
-          "target": "0-imgl1140--"
+          "target": "4-guestroom_kitchen"
         }
       ],
       "infoHotspots": []
