@@ -15,11 +15,11 @@
       <min tilt="-90" fov="5" pan="0"/>
       <max tilt="90" fov="120" scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata longitude="" copyright="" tags="Pano2VR5" author="Giorgi Dumbadze" source="" latitude="" description="Grigol lortkifanidze N 6/ 4 Th floor " datetime="12.01.2025 17:26" comment="" info="" title="Hpappy Mandarine" customnodeid=""/>
+    <userdata longitude="" copyright="" tags="Pano2VR5" author="Giorgi Dumbadze" source="" latitude="" description="Grigol lortkifanidze N 6/ 4 Th floor " datetime="12.01.2025 17:26" comment="" info="" title="Hallway Flat 31" customnodeid=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" enabled="1" textalpha="1" border="1" borderradius="1" backgroundcolor="0xffffff" height="20" textcolor="0x000000" wordwrap="1" background="1"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot tilt="-5.51" target="4.1/-7.0/120.0" skinid="active_zone" pan="1.52" id="Point01" description="" url="{node12}" title="Bedroom1"/>
+      <hotspot tilt="-5.5" target="4.1/-7.0/120.0" skinid="active_zone" pan="1.59" id="Point01" description="" url="{node12}" title="Bedroom1"/>
       <hotspot tilt="-2.97" target="-119.9/-7.5/115.4" skinid="active_zone" pan="-87.1" id="Point02" description="" url="{node8}" title="Guestroom &amp; Kitchen"/>
       <hotspot tilt="-8.72" target="5.5/-5.3/115.0" skinid="active_zone" pan="81.92" id="Point03" description="" url="{node5}" title="Bathroom"/>
       <hotspot tilt="-3.75" target="-62.6/-0.3/120.0" skinid="active_zone" pan="169.65" id="Point04" description="" url="{node7}" title="Coridor"/>
@@ -130,7 +130,7 @@
       <label width="180" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" enabled="1" textalpha="1" border="1" borderradius="1" backgroundcolor="0xffffff" height="20" textcolor="0x000000" wordwrap="1" background="1"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot tilt="-3.37" target="2.6/3.0/98.3" skinid="active_zone" pan="-7.36" id="Point01" description="" url="{node4}" title="Balcony"/>
-      <hotspot tilt="-5.37" target="-157.8/-0.2/120.0" skinid="active_zone" pan="-176.97" id="Point02" description="" url="{node9}" title="Hallway Flat 31"/>
+      <hotspot tilt="-5.17" target="-157.8/-0.2/120.0" skinid="active_zone" pan="-176.98" id="Point02" description="" url="{node9}" title="Hallway Flat 31"/>
     </hotspots>
     <media/>
     <transition zoomin="0" type="crossdissolve" blendtime="1" enabled="0" zoomout="0" softedge="0" zoomfov="20" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000"/>
